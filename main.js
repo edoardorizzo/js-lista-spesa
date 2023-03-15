@@ -14,8 +14,7 @@ while (i < shopping.length) {
     console.log(shoppingList);
 
     const listElm = document.querySelector('.list_item');
-    listElm.innerHTML += (shopping);
-    break;
-
+    listElm.innerHTML = (shopping);
+    
     i++
  }
