@@ -7,11 +7,15 @@ let shopping = [
     'Pane'
 ]
 
- for (let i = 0; i < shopping.length; i++) {
+let i = 0
+
+while (i < shopping.length) {
     const shoppingList = shopping[i];
     console.log(shoppingList);
 
     const listElm = document.querySelector('.list_item');
     listElm.innerHTML += (shopping);
-    break
+    break;
+
+    i++
  }
